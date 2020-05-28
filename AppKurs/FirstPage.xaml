@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppKurs.FirstPage"
+             Title="Я напомню! ;)">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry x:Name="TextArea" Placeholder="Введи что-нибудь!" Text="{Binding TextArea}"> </Entry>
+            <StackLayout>
+                <Label x:Name="date" Text="{Binding date}" FontSize="Medium"  />
+                <DatePicker Format="D" DateSelected="datePicker_DateSelected" >
+                    <DatePicker.MinimumDate>1/01/2016</DatePicker.MinimumDate>
+                    <DatePicker.MaximumDate>1/30/2023</DatePicker.MaximumDate>
+                </DatePicker>
+            </StackLayout>
+            <Button Text="Предпросмотр" FontAttributes="Bold" Clicked="ButtonHello_Click"></Button>
+            <StackLayout>
+                         
+            </StackLayout>
+            <Label x:Name="Label1" FontSize="27"  Text="ПРИВЕТ!!!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="Label2"  FontSize="27" Text=" "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+           
+            <Button Text="Добавить" Clicked="CreatePlan"/>
+            <Button Clicked="Del_button" Text="Удалить" />
+            <Button Text="Просмотр дел" Clicked="ViewPlan" />
+            
+            
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

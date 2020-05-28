@@ -1,0 +1,14 @@
+D:\Android\AppKurs\AppKurs\AppKurs\bin\Debug\netstandard2.0\AppKurs.deps.json
+D:\Android\AppKurs\AppKurs\AppKurs\bin\Debug\netstandard2.0\AppKurs.dll
+D:\Android\AppKurs\AppKurs\AppKurs\bin\Debug\netstandard2.0\ref\AppKurs.dll
+D:\Android\AppKurs\AppKurs\AppKurs\bin\Debug\netstandard2.0\AppKurs.pdb
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\AppKurs.AssemblyInfoInputs.cache
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\AppKurs.AssemblyInfo.cs
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\AppKurs.dll
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\ref\AppKurs.dll
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\AppKurs.pdb
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\FirstPage.xaml.g.cs
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\AppKurs.csprojAssemblyReference.cache
+D:\Android\AppKurs\AppKurs\AppKurs\obj\Debug\netstandard2.0\XamlC.stamp

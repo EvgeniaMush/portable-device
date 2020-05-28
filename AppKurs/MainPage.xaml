@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppKurs.MainPage" Title="Список дел" 
+             BackgroundImage="fon2.jpg"  >
+
+    <StackLayout>
+        <ListView x:Name="friendsList" ItemsSource="{Binding}" ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+
+                                <Label Text="{Binding TextArea}"   FontSize="Subtitle" FontAttributes="Bold" TextColor="#090808" TextType="Text" Margin="65,10,0,0"  />
+                                <Label Text="{Binding date}" FontSize="Subtitle" FontAttributes="Bold" TextColor="#090808" TextType="Text"   Margin="0,10,0,0" />
+                              
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!-- Place new controls here -->
+        <Label Text="Приветствую! Твой личный календарь!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+           FontAttributes="Italic"    />
+        <Button FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Enter_Button" Text="Добавить"></Button>
+    </StackLayout>
+
+</ContentPage>
